@@ -1,0 +1,799 @@
+{
+  "version": 4,
+  "terraform_version": "1.12.2",
+  "serial": 1,
+  "lineage": "231a0430-e1b9-aed9-16b7-61942abff2d3",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "data",
+      "type": "aws_eks_cluster",
+      "name": "cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "access_config": [
+              {
+                "authentication_mode": "API",
+                "bootstrap_cluster_creator_admin_permissions": true
+              }
+            ],
+            "arn": "arn:aws:eks:us-east-1:955655757785:cluster/eks-tech-challenge-fiap",
+            "certificate_authority": [
+              {
+                "data": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJTEJtQ0tiRWtha2t3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRBNU1ETXlNekV6TVROYUZ3MHpOVEE1TURFeU16RTRNVE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN3NHE4c0cxUm9HZXA1ODdVU21udWo0UVpicWcwMHVaOFRUU3ZSN3BsclNYTnlhQUJtbzVhbEtLOGkKeGlnTElLZ1N1SC94SnRzODluaUxGekh1T3lKekRPTDRyclIwak5vS01PeG1ZcVh0c0NzbFoyTWxORmk1dXVUVgorRGR5bHhnMTl3S2k3T0tDSCtZRmJXRmlEckhsUjFwSThUSTJ2VVNWSldoZFV3ZW1pejhpL25vOFljR1lObUUvCnJKZlhFZll3TS9ZZzBJbWVzQWdPKzZmejlUNW1VblRaa3o5UmdJeXpaN2hPTDRha2p0M1Q5SXdEa3JKaWgxQUIKd1dPSHY0dHBNSm16UVlqd1RkbDdTaXBtYXdIZms5Y0FNNG1oNjJuTFpVV05FVWE2MDlUbVZkQ1VIbEVFMmNkOQpuL3NGQlVoc1dvYzdhQ2NwdGtNM1d0VjdMOEtaQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRWm0wakRnL3hWakhETDlsWXJLd2pWZHVxWVJqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQmJCSTlFT25ycwp6aGU4MzdEc0ZlQldkcUdzVWg3RDUzaTB2WUpKTmlDN3VFaG1OanFpdENJTGdmSHBpdnJ3NVZtTWFncXpVS0UrClloMkg4bkhzak54Njg4ZXZhOTBuT1FMcy9vRXIxWXdjZ3UzMjM1TnNhaGw0VFAzRFBUekhmQW8xeFUvZGlOYnIKdmgrK0RYQmpqNEVtSmpCWU5tOXB3V0YyTDJNc01UL1RjSTlBM2xGM1FDb0ZmWFNFZ3pYRlp1bHMzYVV0bzkyNwp1eFI4REVrMzR4cE92TFZyNXJheG1JZVFPLzF0ak9GWm9lVXE3aUZiWHJDMmZ4YnNJaFBheWVNdm1JRUlIT2l0ClZoL1FuMG5VMUlwU0RkV083aWFQamxaU3ZTU2hBWlRrczYydmhYRkxDSVdmRmF1Mi9VK3puL2tSRTdtQy93L0MKbG8wT2prTVNiTmhHCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+              }
+            ],
+            "cluster_id": null,
+            "compute_config": [],
+            "created_at": "2025-09-03T23:12:56Z",
+            "deletion_protection": false,
+            "enabled_cluster_log_types": [],
+            "endpoint": "https://FB8B53775D3AFF5886379FF484C37A63.gr7.us-east-1.eks.amazonaws.com",
+            "id": "eks-tech-challenge-fiap",
+            "identity": [
+              {
+                "oidc": [
+                  {
+                    "issuer": "https://oidc.eks.us-east-1.amazonaws.com/id/FB8B53775D3AFF5886379FF484C37A63"
+                  }
+                ]
+              }
+            ],
+            "kubernetes_network_config": [
+              {
+                "elastic_load_balancing": [
+                  {
+                    "enabled": false
+                  }
+                ],
+                "ip_family": "ipv4",
+                "service_ipv4_cidr": "10.100.0.0/16",
+                "service_ipv6_cidr": ""
+              }
+            ],
+            "name": "eks-tech-challenge-fiap",
+            "outpost_config": [],
+            "platform_version": "eks.34",
+            "region": "us-east-1",
+            "remote_network_config": [],
+            "role_arn": "arn:aws:iam::955655757785:role/c173096a4485959l11231379t1w955655-LabEksClusterRole-s7bEslNxcDPl",
+            "status": "ACTIVE",
+            "storage_config": [],
+            "tags": {},
+            "upgrade_policy": [
+              {
+                "support_type": "EXTENDED"
+              }
+            ],
+            "version": "1.31",
+            "vpc_config": [
+              {
+                "cluster_security_group_id": "sg-0ff5f453c4ed2f85b",
+                "endpoint_private_access": false,
+                "endpoint_public_access": true,
+                "public_access_cidrs": [
+                  "0.0.0.0/0"
+                ],
+                "security_group_ids": [],
+                "subnet_ids": [
+                  "subnet-050c143924d712646",
+                  "subnet-079b49b3e82add6cf",
+                  "subnet-09fb84317794bbd19"
+                ],
+                "vpc_id": "vpc-012880594bf05ae4b"
+              }
+            ],
+            "zonal_shift_config": []
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_eks_cluster_auth",
+      "name": "auth",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "eks-tech-challenge-fiap",
+            "name": "eks-tech-challenge-fiap",
+            "region": "us-east-1",
+            "token": "k8s-aws-v1.aHR0cHM6Ly9zdHMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vP0FjdGlvbj1HZXRDYWxsZXJJZGVudGl0eSZWZXJzaW9uPTIwMTEtMDYtMTUmWC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BU0lBNTVBTUZUN01XTFBaT0VVQSUyRjIwMjUwOTAzJTJGdXMtZWFzdC0xJTJGc3RzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA5MDNUMjMyMDA3WiZYLUFtei1FeHBpcmVzPTAmWC1BbXotU2VjdXJpdHktVG9rZW49SVFvSmIzSnBaMmx1WDJWakVPYiUyRiUyRiUyRiUyRiUyRiUyRiUyRiUyRiUyRiUyRndFYUNYVnpMWGRsYzNRdE1pSkdNRVFDSUJKOXBCJTJCcEpLQjJad2s1WXJHQ2glMkJJMEJXU0tBSXYydGF2b3h0MWhEWkxwQWlCc2V5RHVBTWlhMkxRQlpzaWpFNHA2d1VhQkk4ekE3bHB5WHlnUDZKVnRQQ3FvQWdoUEVBQWFERGsxTlRZMU5UYzFOemM0TlNJTTgwQXlJVG5UZmFPQjdQNGVLb1VDeHRWRG1Xd1JFN3IwSUlSeEFWOVIyR21BSllOc0h3Y3I4JTJGQUI3M2tWNHhnb2FhdHAxdDhhcTh2eFQxOUJUWVB4RlNPYTlIdlNlRjU4Q3hWYUZzWTBXWko5T3dOOFh6TmRKSk5lMVpjTlhoTWI0VzNGa3NBQWZrTDZBWjZhRDBsUUpVV05pM0clMkJYTiUyRnc0aDVOZWJ5dCUyRmplUzZLSEp6NjRYakNDUFpVMmhjYnFXa0FQTmx3eWo4S2hra2libjdRN0pRTTR1UnRMbmRyM2R4dFdyaTNrWVlPVVVjdjFBc1QxcElNJTJGaGxuU2dLNkwlMkJiTkpFYjQ1N25JeXp2NDZrY3hNUzRtR1JMQzhZSmt4RW1jSXRNUXE2JTJGbkJYNE5Cb1NSQWo1Q29FY3o5U3FWVzAxeDZoUnkxT2RQWEVkR2p0VUZMZ0NYMGhMJTJGdnNsTVI4OGptSGRmNGluUXZVcTlqbE1QajI0c1VHT3A0QjhsNmFYRW44bms0dGQlMkZCdmZoRnlBUUZpY3I5bFpLSWJsSklqV2UzVmgweDRWQWRwSmVHdkZSS1pmTlFjUkR4ZU9pR3owY1pIcklwT0dwU0Z5YWFZM0lhYjNiVFZHSGF4eXN0bFVOYUtOTmlmUndPVURBUkxwZlo0d3QxRUQxTEFaYmhDWW9iZlVxS3lROXQlMkJ6SkhmQzFKUUtvR0FaU2VGVXNOcDZOcXhyWjdhTGY2bnNoSGd6dGFITjJ6bjVWaktVTWtRQTk0ZkFab1NUcHZrQUdRJTNEJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCUzQngtazhzLWF3cy1pZCZYLUFtei1TaWduYXR1cmU9OTI1ZjdiMjA1NzE2ZjcwZDU2YzAxOTZlMjhhMDNjNTlmZmE3MTIxYmMwZDAyODMzNjQ5OTRhMWZhMmQ3NjY0Zg"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "token"
+              }
+            ]
+          ],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_eks_access_entry",
+      "name": "access_entry",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "access_entry_arn": "arn:aws:eks:us-east-1:955655757785:access-entry/eks-tech-challenge-fiap/role/955655757785/voclabs/2acc88f0-b1ad-2835-ad1f-9d197fce72b6",
+            "cluster_name": "eks-tech-challenge-fiap",
+            "created_at": "2025-09-03T23:20:07Z",
+            "id": "eks-tech-challenge-fiap:arn:aws:iam::955655757785:role/voclabs",
+            "kubernetes_groups": [
+              "grupo-1"
+            ],
+            "modified_at": "2025-09-03T23:20:07Z",
+            "principal_arn": "arn:aws:iam::955655757785:role/voclabs",
+            "region": "us-east-1",
+            "tags": null,
+            "tags_all": {},
+            "timeouts": null,
+            "type": "STANDARD",
+            "user_name": "arn:aws:sts::955655757785:assumed-role/voclabs/{{SessionName}}"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "aws_eks_cluster.cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_eks_access_policy_association",
+      "name": "access_entry_association",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "access_scope": [
+              {
+                "namespaces": null,
+                "type": "cluster"
+              }
+            ],
+            "associated_at": "2025-09-03 23:20:07.91 +0000 UTC",
+            "cluster_name": "eks-tech-challenge-fiap",
+            "id": "eks-tech-challenge-fiap#arn:aws:iam::955655757785:role/voclabs#arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy",
+            "modified_at": "2025-09-03 23:20:07.91 +0000 UTC",
+            "policy_arn": "arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy",
+            "principal_arn": "arn:aws:iam::955655757785:role/voclabs",
+            "region": "us-east-1",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "aws_eks_cluster.cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_eks_cluster",
+      "name": "cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "access_config": [
+              {
+                "authentication_mode": "API",
+                "bootstrap_cluster_creator_admin_permissions": false
+              }
+            ],
+            "arn": "arn:aws:eks:us-east-1:955655757785:cluster/eks-tech-challenge-fiap",
+            "bootstrap_self_managed_addons": true,
+            "certificate_authority": [
+              {
+                "data": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJTEJtQ0tiRWtha2t3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRBNU1ETXlNekV6TVROYUZ3MHpOVEE1TURFeU16RTRNVE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUN3NHE4c0cxUm9HZXA1ODdVU21udWo0UVpicWcwMHVaOFRUU3ZSN3BsclNYTnlhQUJtbzVhbEtLOGkKeGlnTElLZ1N1SC94SnRzODluaUxGekh1T3lKekRPTDRyclIwak5vS01PeG1ZcVh0c0NzbFoyTWxORmk1dXVUVgorRGR5bHhnMTl3S2k3T0tDSCtZRmJXRmlEckhsUjFwSThUSTJ2VVNWSldoZFV3ZW1pejhpL25vOFljR1lObUUvCnJKZlhFZll3TS9ZZzBJbWVzQWdPKzZmejlUNW1VblRaa3o5UmdJeXpaN2hPTDRha2p0M1Q5SXdEa3JKaWgxQUIKd1dPSHY0dHBNSm16UVlqd1RkbDdTaXBtYXdIZms5Y0FNNG1oNjJuTFpVV05FVWE2MDlUbVZkQ1VIbEVFMmNkOQpuL3NGQlVoc1dvYzdhQ2NwdGtNM1d0VjdMOEtaQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRWm0wakRnL3hWakhETDlsWXJLd2pWZHVxWVJqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQmJCSTlFT25ycwp6aGU4MzdEc0ZlQldkcUdzVWg3RDUzaTB2WUpKTmlDN3VFaG1OanFpdENJTGdmSHBpdnJ3NVZtTWFncXpVS0UrClloMkg4bkhzak54Njg4ZXZhOTBuT1FMcy9vRXIxWXdjZ3UzMjM1TnNhaGw0VFAzRFBUekhmQW8xeFUvZGlOYnIKdmgrK0RYQmpqNEVtSmpCWU5tOXB3V0YyTDJNc01UL1RjSTlBM2xGM1FDb0ZmWFNFZ3pYRlp1bHMzYVV0bzkyNwp1eFI4REVrMzR4cE92TFZyNXJheG1JZVFPLzF0ak9GWm9lVXE3aUZiWHJDMmZ4YnNJaFBheWVNdm1JRUlIT2l0ClZoL1FuMG5VMUlwU0RkV083aWFQamxaU3ZTU2hBWlRrczYydmhYRkxDSVdmRmF1Mi9VK3puL2tSRTdtQy93L0MKbG8wT2prTVNiTmhHCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+              }
+            ],
+            "cluster_id": null,
+            "compute_config": [],
+            "created_at": "2025-09-03T23:12:56Z",
+            "deletion_protection": false,
+            "enabled_cluster_log_types": null,
+            "encryption_config": [],
+            "endpoint": "https://FB8B53775D3AFF5886379FF484C37A63.gr7.us-east-1.eks.amazonaws.com",
+            "force_update_version": null,
+            "id": "eks-tech-challenge-fiap",
+            "identity": [
+              {
+                "oidc": [
+                  {
+                    "issuer": "https://oidc.eks.us-east-1.amazonaws.com/id/FB8B53775D3AFF5886379FF484C37A63"
+                  }
+                ]
+              }
+            ],
+            "kubernetes_network_config": [
+              {
+                "elastic_load_balancing": [
+                  {
+                    "enabled": false
+                  }
+                ],
+                "ip_family": "ipv4",
+                "service_ipv4_cidr": "10.100.0.0/16",
+                "service_ipv6_cidr": ""
+              }
+            ],
+            "name": "eks-tech-challenge-fiap",
+            "outpost_config": [],
+            "platform_version": "eks.34",
+            "region": "us-east-1",
+            "remote_network_config": [],
+            "role_arn": "arn:aws:iam::955655757785:role/c173096a4485959l11231379t1w955655-LabEksClusterRole-s7bEslNxcDPl",
+            "status": "ACTIVE",
+            "storage_config": [],
+            "tags": null,
+            "tags_all": {},
+            "timeouts": null,
+            "upgrade_policy": [
+              {
+                "support_type": "EXTENDED"
+              }
+            ],
+            "version": "1.31",
+            "vpc_config": [
+              {
+                "cluster_security_group_id": "sg-0ff5f453c4ed2f85b",
+                "endpoint_private_access": false,
+                "endpoint_public_access": true,
+                "public_access_cidrs": [
+                  "0.0.0.0/0"
+                ],
+                "security_group_ids": null,
+                "subnet_ids": [
+                  "subnet-050c143924d712646",
+                  "subnet-079b49b3e82add6cf",
+                  "subnet-09fb84317794bbd19"
+                ],
+                "vpc_id": "vpc-012880594bf05ae4b"
+              }
+            ],
+            "zonal_shift_config": []
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjkwMDAwMDAwMDAwMCwidXBkYXRlIjozNjAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_eks_node_group",
+      "name": "node_group",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "ami_type": "AL2023_x86_64_STANDARD",
+            "arn": "arn:aws:eks:us-east-1:955655757785:nodegroup/eks-tech-challenge-fiap/nodeg-tech-challenge-fiap/70cc88f0-b189-e9f2-1649-4a59b4970dcc",
+            "capacity_type": "ON_DEMAND",
+            "cluster_name": "eks-tech-challenge-fiap",
+            "disk_size": 50,
+            "force_update_version": null,
+            "id": "eks-tech-challenge-fiap:nodeg-tech-challenge-fiap",
+            "instance_types": [
+              "t3.medium"
+            ],
+            "labels": null,
+            "launch_template": [],
+            "node_group_name": "nodeg-tech-challenge-fiap",
+            "node_group_name_prefix": "",
+            "node_repair_config": [],
+            "node_role_arn": "arn:aws:iam::955655757785:role/c173096a4485959l11231379t1w955655757-LabEksNodeRole-SyQ89186O4Mt",
+            "region": "us-east-1",
+            "release_version": "1.31.11-20250829",
+            "remote_access": [],
+            "resources": [
+              {
+                "autoscaling_groups": [
+                  {
+                    "name": "eks-nodeg-tech-challenge-fiap-70cc88f0-b189-e9f2-1649-4a59b4970dcc"
+                  }
+                ],
+                "remote_access_security_group_id": ""
+              }
+            ],
+            "scaling_config": [
+              {
+                "desired_size": 2,
+                "max_size": 5,
+                "min_size": 2
+              }
+            ],
+            "status": "ACTIVE",
+            "subnet_ids": [
+              "subnet-050c143924d712646",
+              "subnet-079b49b3e82add6cf",
+              "subnet-09fb84317794bbd19"
+            ],
+            "tags": null,
+            "tags_all": {},
+            "taint": [],
+            "timeouts": null,
+            "update_config": [
+              {
+                "max_unavailable": 1,
+                "max_unavailable_percentage": 0
+              }
+            ],
+            "version": "1.31"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozNjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInVwZGF0ZSI6MzYwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_eks_cluster.cluster"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "configmap",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/api/v1/namespaces/default/configmaps/app-config",
+            "ignore_fields": null,
+            "kind": "ConfigMap",
+            "live_manifest_incluster": "de1f92ae8998982ee1125b051bdff16b896fef31356a854ca00c409ea61c3ef1",
+            "live_uid": "bc9ebb78-8bc7-42ec-802c-24a040e640e6",
+            "name": "app-config",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "bc9ebb78-8bc7-42ec-802c-24a040e640e6",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: app-config\ndata:\n  SPRING_DATA_MONGODB_HOST: mongodb\n  SPRING_DATA_MONGODB_PORT: \"27017\"\n  SPRING_DATA_MONGODB_DATABASE: tech-chall\n",
+            "yaml_body_parsed": "apiVersion: v1\ndata:\n  SPRING_DATA_MONGODB_DATABASE: tech-chall\n  SPRING_DATA_MONGODB_HOST: mongodb\n  SPRING_DATA_MONGODB_PORT: \"27017\"\nkind: ConfigMap\nmetadata:\n  name: app-config\n",
+            "yaml_incluster": "de1f92ae8998982ee1125b051bdff16b896fef31356a854ca00c409ea61c3ef1"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "deploy",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "apps/v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/apis/apps/v1/namespaces/default/deployments/tech-chall-app",
+            "ignore_fields": null,
+            "kind": "Deployment",
+            "live_manifest_incluster": "0f8b4146778304cd447732403506db71ac2bdf09d8510d2b32dcd67b5bed39d3",
+            "live_uid": "92352a24-3555-479d-b523-4cba8d499d51",
+            "name": "tech-chall-app",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "92352a24-3555-479d-b523-4cba8d499d51",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: tech-chall-app\nspec:\n  replicas: 1\n  selector:\n    matchLabels:\n      app: tech-chall-app\n  template:\n    metadata:\n      labels:\n        app: tech-chall-app\n    spec:\n      containers:\n        - name: tech-chall-container\n          image: gabitriferreira/tech-challenge-app:latest\n          imagePullPolicy: Always\n          ports:\n            - containerPort: 8080\n          env:\n            - name: SPRING_DATA_MONGODB_HOST\n              valueFrom:\n                configMapKeyRef:\n                  name: app-config\n                  key: SPRING_DATA_MONGODB_HOST\n            - name: SPRING_DATA_MONGODB_PORT\n              valueFrom:\n                configMapKeyRef:\n                  name: app-config\n                  key: SPRING_DATA_MONGODB_PORT\n            - name: SPRING_DATA_MONGODB_DATABASE\n              valueFrom:\n                configMapKeyRef:\n                  name: app-config\n                  key: SPRING_DATA_MONGODB_DATABASE\n            - name: SPRING_DATA_MONGODB_USERNAME\n              valueFrom:\n                secretKeyRef:\n                  name: app-secrets\n                  key: SPRING_DATA_MONGODB_USERNAME\n            - name: SPRING_DATA_MONGODB_PASSWORD\n              valueFrom:\n                secretKeyRef:\n                  name: app-secrets\n                  key: SPRING_DATA_MONGODB_PASSWORD\n          resources:\n            requests:\n              cpu: \"500m\"\n              memory: \"512Mi\"\n            limits:\n              cpu: \"1\"\n              memory: \"1Gi\"\n",
+            "yaml_body_parsed": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: tech-chall-app\nspec:\n  replicas: 1\n  selector:\n    matchLabels:\n      app: tech-chall-app\n  template:\n    metadata:\n      labels:\n        app: tech-chall-app\n    spec:\n      containers:\n      - env:\n        - name: SPRING_DATA_MONGODB_HOST\n          valueFrom:\n            configMapKeyRef:\n              key: SPRING_DATA_MONGODB_HOST\n              name: app-config\n        - name: SPRING_DATA_MONGODB_PORT\n          valueFrom:\n            configMapKeyRef:\n              key: SPRING_DATA_MONGODB_PORT\n              name: app-config\n        - name: SPRING_DATA_MONGODB_DATABASE\n          valueFrom:\n            configMapKeyRef:\n              key: SPRING_DATA_MONGODB_DATABASE\n              name: app-config\n        - name: SPRING_DATA_MONGODB_USERNAME\n          valueFrom:\n            secretKeyRef:\n              key: SPRING_DATA_MONGODB_USERNAME\n              name: app-secrets\n        - name: SPRING_DATA_MONGODB_PASSWORD\n          valueFrom:\n            secretKeyRef:\n              key: SPRING_DATA_MONGODB_PASSWORD\n              name: app-secrets\n        image: gabitriferreira/tech-challenge-app:latest\n        imagePullPolicy: Always\n        name: tech-chall-container\n        ports:\n        - containerPort: 8080\n        resources:\n          limits:\n            cpu: \"1\"\n            memory: 1Gi\n          requests:\n            cpu: 500m\n            memory: 512Mi\n",
+            "yaml_incluster": "0f8b4146778304cd447732403506db71ac2bdf09d8510d2b32dcd67b5bed39d3"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "hpa",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "autoscaling/v2",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/apis/autoscaling/v2/namespaces/default/horizontalpodautoscalers/tech-chall-hpa",
+            "ignore_fields": null,
+            "kind": "HorizontalPodAutoscaler",
+            "live_manifest_incluster": "a7a4fb50bea65c15887895d55f58e813705e91a9c3bc046ea9f3a5b63c0243f5",
+            "live_uid": "fadda594-bf3b-4247-8425-b42ce160b156",
+            "name": "tech-chall-hpa",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "fadda594-bf3b-4247-8425-b42ce160b156",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: autoscaling/v2\nkind: HorizontalPodAutoscaler\nmetadata:\n  name: tech-chall-hpa\nspec:\n  scaleTargetRef:\n    apiVersion: apps/v1\n    kind: Deployment\n    name: tech-chall-app\n  minReplicas: 1\n  maxReplicas: 5\n  metrics:\n    - type: Resource\n      resource:\n        name: cpu\n        target:\n          type: Utilization\n          averageUtilization: 10\n",
+            "yaml_body_parsed": "apiVersion: autoscaling/v2\nkind: HorizontalPodAutoscaler\nmetadata:\n  name: tech-chall-hpa\nspec:\n  maxReplicas: 5\n  metrics:\n  - resource:\n      name: cpu\n      target:\n        averageUtilization: 10\n        type: Utilization\n    type: Resource\n  minReplicas: 1\n  scaleTargetRef:\n    apiVersion: apps/v1\n    kind: Deployment\n    name: tech-chall-app\n",
+            "yaml_incluster": "a7a4fb50bea65c15887895d55f58e813705e91a9c3bc046ea9f3a5b63c0243f5"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "mongo-deploy",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "apps/v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/apis/apps/v1/namespaces/default/deployments/mongodb",
+            "ignore_fields": null,
+            "kind": "Deployment",
+            "live_manifest_incluster": "efd023b4600660cac22e5f3bbee97aeb4e875893626bb20f9120ce0d1881f91e",
+            "live_uid": "7c25ae1a-769c-4250-87e5-7cc76db72392",
+            "name": "mongodb",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "7c25ae1a-769c-4250-87e5-7cc76db72392",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: mongodb\nspec:\n  replicas: 1\n  selector:\n    matchLabels:\n      app: mongodb\n  template:\n    metadata:\n      labels:\n        app: mongodb\n    spec:\n      containers:\n        - name: mongodb\n          image: mongo:7.0\n          ports:\n            - containerPort: 27017\n          env:\n            - name: MONGO_INITDB_DATABASE\n              valueFrom:\n                configMapKeyRef:\n                  name: app-config\n                  key: SPRING_DATA_MONGODB_DATABASE\n            - name: MONGO_INITDB_ROOT_USERNAME\n              valueFrom:\n                secretKeyRef:\n                  name: app-secrets\n                  key: SPRING_DATA_MONGODB_USERNAME\n            - name: MONGO_INITDB_ROOT_PASSWORD\n              valueFrom:\n                secretKeyRef:\n                  name: app-secrets\n                  key: SPRING_DATA_MONGODB_PASSWORD\n",
+            "yaml_body_parsed": "apiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: mongodb\nspec:\n  replicas: 1\n  selector:\n    matchLabels:\n      app: mongodb\n  template:\n    metadata:\n      labels:\n        app: mongodb\n    spec:\n      containers:\n      - env:\n        - name: MONGO_INITDB_DATABASE\n          valueFrom:\n            configMapKeyRef:\n              key: SPRING_DATA_MONGODB_DATABASE\n              name: app-config\n        - name: MONGO_INITDB_ROOT_USERNAME\n          valueFrom:\n            secretKeyRef:\n              key: SPRING_DATA_MONGODB_USERNAME\n              name: app-secrets\n        - name: MONGO_INITDB_ROOT_PASSWORD\n          valueFrom:\n            secretKeyRef:\n              key: SPRING_DATA_MONGODB_PASSWORD\n              name: app-secrets\n        image: mongo:7.0\n        name: mongodb\n        ports:\n        - containerPort: 27017\n",
+            "yaml_incluster": "efd023b4600660cac22e5f3bbee97aeb4e875893626bb20f9120ce0d1881f91e"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "mongo-service",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/api/v1/namespaces/default/services/mongodb",
+            "ignore_fields": null,
+            "kind": "Service",
+            "live_manifest_incluster": "a3b35126b65f2bb3a9c092c5c2b733dc386cd4ee465c672e54abe0ba4191ea59",
+            "live_uid": "b8de6f87-d5f4-4f3c-8e9d-d543fc9d3db7",
+            "name": "mongodb",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "b8de6f87-d5f4-4f3c-8e9d-d543fc9d3db7",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: v1\nkind: Service\nmetadata:\n  name: mongodb\nspec:\n  selector:\n    app: mongodb\n  ports:\n    - port: 27017\n      targetPort: 27017\n",
+            "yaml_body_parsed": "apiVersion: v1\nkind: Service\nmetadata:\n  name: mongodb\nspec:\n  ports:\n  - port: 27017\n    targetPort: 27017\n  selector:\n    app: mongodb\n",
+            "yaml_incluster": "a3b35126b65f2bb3a9c092c5c2b733dc386cd4ee465c672e54abe0ba4191ea59"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "secret",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/api/v1/namespaces/default/secrets/app-secrets",
+            "ignore_fields": null,
+            "kind": "Secret",
+            "live_manifest_incluster": "5eb43f970bdac9294267cc4afc8dc6f71a11b087d275c300a1807987a93e1fb7",
+            "live_uid": "858b162c-f5fc-42e3-96bd-80367bd01ff1",
+            "name": "app-secrets",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "858b162c-f5fc-42e3-96bd-80367bd01ff1",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: app-secrets\ntype: Opaque\nstringData:\n  SPRING_DATA_MONGODB_USERNAME: admin\n  SPRING_DATA_MONGODB_PASSWORD: password\n",
+            "yaml_body_parsed": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: app-secrets\nstringData:\n  SPRING_DATA_MONGODB_PASSWORD: password\n  SPRING_DATA_MONGODB_USERNAME: admin\ntype: Opaque\n",
+            "yaml_incluster": "5eb43f970bdac9294267cc4afc8dc6f71a11b087d275c300a1807987a93e1fb7"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "kubectl_manifest",
+      "name": "service",
+      "provider": "provider[\"registry.terraform.io/gavinbunney/kubectl\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "api_version": "v1",
+            "apply_only": false,
+            "force_conflicts": false,
+            "force_new": false,
+            "id": "/api/v1/namespaces/default/services/tech-chall-service",
+            "ignore_fields": null,
+            "kind": "Service",
+            "live_manifest_incluster": "832c6cccfec9cb6998b4757fb5a62a43c17d3bad8fd2dd57a0e401b9d4e37f0e",
+            "live_uid": "d341976c-377e-4ab2-8572-787ad851e205",
+            "name": "tech-chall-service",
+            "namespace": null,
+            "override_namespace": null,
+            "sensitive_fields": null,
+            "server_side_apply": false,
+            "timeouts": null,
+            "uid": "d341976c-377e-4ab2-8572-787ad851e205",
+            "validate_schema": true,
+            "wait": null,
+            "wait_for_rollout": true,
+            "yaml_body": "apiVersion: v1\nkind: Service\nmetadata:\n  name: tech-chall-service\nspec:\n  type: LoadBalancer\n  selector:\n    app: tech-chall-app\n  ports:\n    - name: http\n      port: 8080\n      targetPort: 8080\n",
+            "yaml_body_parsed": "apiVersion: v1\nkind: Service\nmetadata:\n  name: tech-chall-service\nspec:\n  ports:\n  - name: http\n    port: 8080\n    targetPort: 8080\n  selector:\n    app: tech-chall-app\n  type: LoadBalancer\n",
+            "yaml_incluster": "832c6cccfec9cb6998b4757fb5a62a43c17d3bad8fd2dd57a0e401b9d4e37f0e"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "live_manifest_incluster"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_body"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "yaml_incluster"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDB9LCJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_eks_cluster.cluster",
+            "aws_eks_node_group.node_group",
+            "data.aws_eks_cluster.cluster",
+            "data.aws_eks_cluster_auth.auth"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
+
