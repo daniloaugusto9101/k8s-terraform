@@ -21,5 +21,9 @@ variable "public_subnet_ids" {
     "subnet-09fb84317794bbd19"
   ]
 }
+variable "test_var" {
+  description = "Variável apenas para teste"
+  default     = "valor_de_teste"
+}
 
 
